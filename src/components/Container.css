@@ -35,17 +35,17 @@
 }
 
 .container--author  {
-  max-width: 438px;
-  max-height: 211px;
+  height: 200px;
+  width: 400px;
   aspect-ratio: 2;
- 
+
   position: absolute;
   bottom: 0px;
   left: 50%;
   transform: translate(-50%);
   opacity: .9;
-
-
+  
+  z-index: 0;
 }
 
 .container--author > h4 {
