@@ -35,8 +35,9 @@
 }
 
 .container--author  {
-  width: 438px;
-  height: 211px;
+  max-width: 438px;
+  max-height: 211px;
+  aspect-ratio: 2;
  
   position: absolute;
   bottom: 0px;
