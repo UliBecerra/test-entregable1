@@ -15,7 +15,7 @@ img {
   margin: 0;
   padding: 0;
 }
-
+/* fondos de pagina */
 .bg {
   background-image: url('/public/images/bg.jpg');
 }
@@ -30,4 +30,24 @@ img {
 
 .bg4 {
   background-image: url('/public/images/bg4.jpg');
+}
+
+/* fondos de la fuente(autor) */
+.bg--author {
+  background-image: radial-gradient(farthest-side circle at center bottom , rgba(255, 255, 228, 0.507), rgba(87, 164, 247, 0.71) 80%,rgba(137, 192, 251, 0.775) 10%, rgba(0, 0, 0, 0) );
+  color: black;
+}
+.bg2--author {
+  background-image: radial-gradient(farthest-side circle at center bottom , rgba(232, 230, 189, 0.429), rgba(255, 255, 255, 0.632) 80%, rgba(252, 202, 94, 0.593) 10%, rgba(0, 0, 0, 0) );
+  color: var(--title-color);
+}
+
+.bg3--author {
+  background-image: radial-gradient(farthest-side circle at center bottom , rgba(221, 232, 189, 0.429), rgba(230, 255, 175, 0.632) 80%, rgba(94, 252, 157, 0.593) 10%, rgba(0, 0, 0, 0) );
+  color: var(--title-color);
+}
+
+.bg4--author {
+  background-image: radial-gradient(farthest-side circle at center bottom , rgb(208, 223, 255), rgb(168, 184, 255) 80%, rgb(188, 87, 255) 10%, rgba(0, 0, 0, 0) );
+  color: black;
 }

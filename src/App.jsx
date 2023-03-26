@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className={`App ${bgImage}`}>
-      <Container handleListItem={handleListItem} quote={quote}/>
+      <Container handleListItem={handleListItem} quote={quote} bgImage={bgImage}/>
       
     </div>
   )

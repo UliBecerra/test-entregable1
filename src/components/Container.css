@@ -1,6 +1,5 @@
 .container--title {
-  position: absolute;
-  bottom: 20px;
+  
   color: var(--title-color);
   font-family: 'digital numbers';
   font-style: normal;
@@ -8,6 +7,8 @@
   font-size: 32px;
   top: 100px;
 
+  position: absolute;
+  bottom: 20px;
   left: 50%;
   transform: translate(-50%);
   
@@ -16,15 +17,15 @@
 .container--phrase {
   font-family: 'digital numbers';
   color: var(--phrase-color);
-  
-  padding: 50px 30px;
   font-weight: 500;
   text-align: center;
+
+  padding: 70px 40px;
   max-width: 460px;
   max-height: 250px;
-  
   background: linear-gradient(180deg, var(--title-color) 0%, rgba(255, 255, 255, 0.33) 100%);
   border-radius: 39px;
+
   background-position: center;
   display: flex;
   justify-content: center;
@@ -33,19 +34,33 @@
 
 }
 
-.container--author {
-  background-color: rgba(0, 0, 0, .2);
+.container--author  {
+  width: 438px;
+  height: 211px;
+ 
   position: absolute;
-  color: var(--title-color);
-  max-width: max-content;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  opacity: .9;
+
+
+}
+
+.container--author > h4 {
+  
+  
+
+ /*  max-width: max-content; */
+ 
   font-family: 'Fredoka';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   
-  color: var(--title-color);
   
-  text-shadow: 0px 4px 6px rgba(0, 0, 0, 0.43);
+  /*   text-shadow: -1px -1px .5px #000, 1px 1px .5px #000, -1px 1px .5px #000, 1px -1px .5px #000;*/
+  position:absolute;
   bottom: 10px;
   left: 50%;
   transform: translate(-50%);
