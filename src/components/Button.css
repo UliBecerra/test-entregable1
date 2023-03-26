@@ -1,0 +1,14 @@
+.button {
+  
+  width: 68px;
+  height: 67px;
+  border: 0;
+
+  background-image: url('/public/images/Vector.png');
+  background-color: transparent;
+  
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  top: 30px;
+}
