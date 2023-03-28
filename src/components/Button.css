@@ -7,9 +7,13 @@
   background-image: url('/public/images/Vector.png');
   background-color: transparent;
   
-  position: relative;
+  
+  position: absolute;
+  top: 70%;
   left: 50%;
   transform: translate(-50%);
-  top: 30px;
+  
   z-index: 1;
+
+  
 }
