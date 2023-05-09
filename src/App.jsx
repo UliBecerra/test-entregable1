@@ -28,7 +28,7 @@ function App() {
   
 
   return (
-    <div className={`App ${bgImage}`}>
+    <div className={`App ${bgImage} img `}>
       <Container handleListItem={handleListItem} quote={quote} bgImage={bgImage}/>
       
     </div>

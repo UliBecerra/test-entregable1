@@ -13,7 +13,13 @@
   transform: translate(-50%);
   
 }
-
+.container{
+  height: 100vh;
+  position: relative;
+  display: grid;
+  place-content: center;
+  
+}
 .container--phrase {
   font-family: 'digital numbers';
   color: var(--phrase-color);
@@ -36,8 +42,9 @@
 }
 
 .container--author  {
-  height: 200px;
-  width: 400px;
+
+  height: 160px;
+  width: 320px;
   aspect-ratio: 2;
 
   position: absolute;
